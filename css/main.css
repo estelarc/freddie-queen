@@ -190,9 +190,8 @@ ul li.active::before {
 }
 
 
-.fullpage-section--3{
-    background-position-x: 45%;
-	background-image: url(../img/band-7.jpg);
+.fullpage-section__content--end{
+	display: none;
 }
 
 .fullpage-section--3::before{
@@ -554,6 +553,38 @@ ul li.active::before {
 	.fp-controlArrow.fp-next {
 	    right: 100px;
 	}
+
+	.fullpage-section__content--end-l {
+		width: 50%;
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	    background-position-x: 45%;
+		background-image: url(../img/band-7.jpg);
+	}
+
+	.fullpage-section__content--end-r {
+		width: 49%;
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.fullpage-section__text--end {
+		width: 100%;
+		text-align: center;
+	}
+
+	.fullpage-section__content--end-r div {
+	    position: relative;
+	    height: calc(100% / 4);
+	    background-color: white;
+	    border-bottom: 1px solid gray;
+	}
+
+	.fullpage-section__slide--7{
+		background-image: url(../img/band-1.jpg);
+	}
 }
 
 
@@ -567,6 +598,11 @@ ul li.active::before {
 
 	.fullpage-section__text {
 	    width: 45%;
+	    margin-left: auto;
+	}
+
+	.fullpage-section__text--end{
+	    width: 100%;
 	    margin-left: auto;
 	}
 
