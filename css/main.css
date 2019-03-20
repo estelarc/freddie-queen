@@ -403,7 +403,27 @@ ul li.active::before {
     border-bottom: 1px solid #cc4a52;
 }
 
+.fullpage-section__textogaleria,
+.fullpage-section__videos {
+	position: relative;	
+}
 
+.fullpage-section--3{
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: cover;
+	background-position-x: 45%;
+	background-image: url(../img/band-7.jpg);
+}
+
+
+.fullpage-section__video {
+	height: 200px;
+	padding: 0 21px;
+	margin-bottom: 21px;
+}
 
 
 
@@ -455,7 +475,7 @@ ul li.active::before {
 	.letter small i {
 		color: white;
 		display: block;
-		font-size: 6px;
+		font-size: 9px;
 	}
 
 	.letter img {
@@ -554,32 +574,30 @@ ul li.active::before {
 	    right: 100px;
 	}
 
-	.fullpage-section__content--end-l {
-		width: 50%;
-		height: 100%;
+	.fullpage-section--3{
+		width: 100%;
 		display: inline-block;
 		vertical-align: middle;
+		background-size: cover;
 	    background-position-x: 45%;
 		background-image: url(../img/band-7.jpg);
 	}
 
-	.fullpage-section__content--end-r {
-		width: 49%;
-		height: 100%;
+	.fullpage-section__textogaleria {
+		padding-top: 70px;
+		text-align: right;
+	}
+	
+	.fullpage-section__videos {
+		width: 80%;
+		margin-left: 20%;	
+	}
+
+	.fullpage-section__video{
+		padding: 0;
+		height: 300px;
+		width: calc(99% / 3);
 		display: inline-block;
-		vertical-align: middle;
-	}
-
-	.fullpage-section__text--end {
-		width: 100%;
-		text-align: center;
-	}
-
-	.fullpage-section__content--end-r div {
-	    position: relative;
-	    height: calc(100% / 4);
-	    background-color: white;
-	    border-bottom: 1px solid gray;
 	}
 
 	.fullpage-section__slide--7{
